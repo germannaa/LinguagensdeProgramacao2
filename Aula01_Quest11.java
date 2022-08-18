@@ -13,9 +13,13 @@ public class aula01_quest11 {
             for (int a = 0; a<3; a++){
                 System.out.println("Escreva o valor da [" + i + "][" + a + "]:");
                 matriz[i][a] = input.nextInt();
+                
+                if (i == a){
+                    soma = soma + matriz[i][a];
+                }
             }
         }
-         soma = matriz[0][0] + matriz[1][1] + matriz[2][2];
+        // soma = matriz[0][0] + matriz[1][1] + matriz[2][2];
          
          System.out.println("Soma da [0][0] + [1][1] + [2][2] = " + soma);
        
