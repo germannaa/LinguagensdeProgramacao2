@@ -16,6 +16,10 @@ public class Disciplina {
     public String getNomeProfessor() {
         return professor.getNomeProfessor();
     }
+    
+     public String getNomeDisciplina() {
+        return nomeDisciplina;
+    }
 
     public String getCodigo() {
         return codigo;
