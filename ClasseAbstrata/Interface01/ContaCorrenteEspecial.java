@@ -1,6 +1,5 @@
 package Interface01;
 
-
 public class ContaCorrenteEspecial extends ContaCorrente{
 
     public ContaCorrenteEspecial() {
