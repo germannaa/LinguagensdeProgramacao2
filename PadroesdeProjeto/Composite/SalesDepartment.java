@@ -1,13 +1,14 @@
 package Composite;
 
+//Folha
 public class SalesDepartment implements Department {
 
     private int id;
-    private String name;
+    private String description;
 
-    public SalesDepartment(int id, String name) {
+    public SalesDepartment(int id, String description) {
         this.id = id;
-        this.name = name;
+        this.description = description;
     }
 
     @Override
